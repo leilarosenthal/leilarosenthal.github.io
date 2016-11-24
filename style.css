@@ -34,11 +34,11 @@ header {
 
 img {
   float: center;
-  width: 24%;
+  width: 33%;
   max-height:300px;
   max-width: 300px;
-  padding: 4px;
-  border-radius: 12px;
+  padding: 7px;
+  border-radius: 4px;
 }
 
 
@@ -94,7 +94,7 @@ p {
 
 /* HOME PAGE SECTIONS */
 
-.About-Me{
+.AboutMe{
   background-color: white;
   padding: 50px;
 
@@ -113,15 +113,9 @@ p {
 
 /*
 font-family: 'Roboto', sans-serif;
-
 font-family: 'Roboto Condensed', sans-serif;
-
 font-family: 'Playfair Display', serif;
-
 font-family: 'Satisfy', cursive;
-
 font-family: 'Voltaire', sans-serif;
-
 font-family: 'Handlee', cursive;
-
 font-family: 'Kreon', serif;
