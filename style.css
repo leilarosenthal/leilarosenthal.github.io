@@ -95,9 +95,8 @@ p {
 /* HOME PAGE SECTIONS */
 
 .About-Me{
-  padding: 2px;
-  display: flex;
-  margin: 0px;
+  background-color: white;
+  padding: 50px;
 
 }
 
