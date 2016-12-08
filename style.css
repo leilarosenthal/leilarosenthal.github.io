@@ -22,7 +22,7 @@ section {
 
 
 header {
-  background-image: url("background.jpg");
+  background-image: url(background.jpg);
   height: 250px;
   text-align: center;
   display: flex;
@@ -90,6 +90,7 @@ header h1 {
 
 h2 {
   text-align: center;
+  padding: 20px;
 }
 
 h3 {
@@ -110,7 +111,7 @@ p {
 }
 
 .Different {
-  background-color: mistyrose;
+  background-color: #B0C4DE;
   padding: 50px;
 }
 
@@ -120,9 +121,9 @@ p {
 }
 
 .Contact {
-  background-color: mistyrose;
+  background-color: #B0C4DE;
   padding: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 
 }
 
