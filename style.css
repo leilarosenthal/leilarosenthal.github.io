@@ -22,7 +22,7 @@ section {
 
 
 header {
-  background-color: darkgrey;
+  background-image: background.jpg;
   height: 250px;
   text-align: center;
   display: flex;
