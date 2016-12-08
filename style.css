@@ -32,6 +32,12 @@ header {
 
 }
 
+.Contact img{
+  float: center;
+  width: 10%;
+}
+
+
 img{
   float: center;
   width: 33%;
@@ -41,10 +47,6 @@ img{
   border-radius: 4px;
 }
 
-  .Contact img{
-    float: center;
-    width: 10%;
-  }
 
 
 
