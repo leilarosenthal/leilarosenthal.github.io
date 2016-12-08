@@ -41,8 +41,9 @@ img{
   border-radius: 4px;
 }
 
-  .contact img{
-    width: 15%;
+  .Contact img{
+    float: center;
+    width: 10%;
   }
 
 
@@ -119,9 +120,8 @@ p {
 .Contact {
   background-color: mistyrose;
   padding: 50px;
-  img {
+  margin-bottom: 100px;
 
-  }
 }
 
 
