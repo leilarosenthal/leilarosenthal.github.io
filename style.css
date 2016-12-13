@@ -23,6 +23,7 @@ section {
 
 header {
   background-image: url(background.jpg);
+  background-size: cover;
   height: 250px;
   text-align: center;
   display: flex;
@@ -71,7 +72,7 @@ a:hover{
   color: firebrick;
 }
 
-h1, h2 {
+h1, h2, h3 {
   padding: 0;
   margin: 0;
 }
@@ -85,7 +86,25 @@ header h1 {
   font-size: 50px;
 }
 
-h2 {
+.Reviews h2 {
+  text-align: center;
+  padding: 20px;
+  color: gainsboro;
+}
+
+.Reviews h3 {
+  text-align: center;
+  color: cornsilk;
+}
+
+.Reviews p {
+  color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  line-height: 150%;
+}
+
+.AboutMe, .Recruitment, .Sushi, .Contact h2 {
   text-align: center;
   padding: 20px;
   color: steelblue;
@@ -93,9 +112,12 @@ h2 {
 
 h3 {
   font-weight: normal; /* removes default bold style */
+  text-align: center;
 }
 
-p {
+
+
+.AboutMe, .Recruitment, .Sushi, .Contact p {
   color: dimgrey;
   margin-right: 10%;
   margin-left: 10%;
@@ -113,6 +135,12 @@ p {
 
 .Recruitment {
   background-color: aliceblue;
+  padding: 5%;
+}
+
+.Reviews {
+  background-image: url(reviews-background.jpg);
+  background-size: cover;
   padding: 5%;
 }
 
