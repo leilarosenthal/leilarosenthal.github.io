@@ -78,6 +78,8 @@ header h1 {
   font-size: 50px;
 }
 
+/*Review Section formatting, because it has a different style background*/
+
 .Reviews h2 {
   text-align: center;
   padding: 20px;
@@ -95,6 +97,8 @@ header h1 {
   margin-left: 10%;
   line-height: 150%;
 }
+
+/*The rest of the formatting */
 
 .AboutMe, .Recruitment, .Sushi, .Contact, h2 {
   text-align: center;
@@ -141,13 +145,95 @@ h3 {
   padding: 5%;
 }
 
+.Things {
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+}
+
 .Contact {
   background-color: whitesmoke;
   padding: 7px;
   margin-bottom: 40px;
+  margin-top: 40px;
 
 }
 
+
+
+/* elements for things I like section
+
+.square {
+    float:left;
+    position: relative;
+    width: 33%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio
+    background-color:white;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    align-self: center;
+    height:100%;
+    width:100%;
+
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+
+
+
+/*  For responsive images as background
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped
+    color:white;
+}
+
+.img1{
+    background-image: url(music.jpg);
+    opacity: 0.5;
+}
+.img2{
+    background-image: url(hiking.jpg);
+    opacity: 0.5;
+}
+.img3{
+    background-image: url(technology.jpg);
+    opacity: 0.5;
+}
+.img4{
+    background-image: url(guitar.jpg);
+    opacity: 0.5;
+}
+.img5{
+    background-image: url(cheese.jpg);
+    opacity: 0.5;
+}
+.img6{
+    background-image: url(dogs.jpg);
+    opacity: 0.5;
+}
+
+/*  following just for the demo
+
+.table-cell h3{
+    text-align: center;
+
+
+}
+
+*/
 
 /*
 font-family: 'Roboto', sans-serif;
