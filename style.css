@@ -100,7 +100,7 @@ header h1 {
 
 /*The rest of the formatting */
 
-.AboutMe, .Recruitment, .Sushi, .Contact, h2 {
+.AboutMe, .Recruitment, .Sushi, .Contact, .blogpost h2 {
   text-align: center;
   padding: 20px;
   color: steelblue;
@@ -157,6 +157,13 @@ h3 {
   margin-bottom: 40px;
   margin-top: 40px;
 
+}
+
+/* Blog post page components */
+
+.blogpost {
+  background-color: white;
+  padding: 5%;
 }
 
 
