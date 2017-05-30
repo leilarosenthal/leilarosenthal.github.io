@@ -21,7 +21,7 @@ section {
 
 
 header {
-  background-image: url(photos/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
   height: 250px;
   text-align: center;
@@ -135,7 +135,7 @@ h3 {
 }
 
 .Reviews {
-  background-image: url(photos/reviews-background.jpg);
+  background-image: url(reviews-background.jpg);
   background-size: cover;
   padding: 5%;
 }
